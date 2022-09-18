@@ -10,6 +10,7 @@
 		0248CE824C0EF5CCC109A3F0 /* Pods_Tipster_TipsterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC287EAB3A61EBEAA8668E59 /* Pods_Tipster_TipsterUITests.framework */; };
 		54539CF68E2B076C2FA570FD /* Pods_TipsterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DDAFAFF03F31F754AE6B3A /* Pods_TipsterTests.framework */; };
 		817BCD1128CD560800D45D6C /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817BCD1028CD560800D45D6C /* MovieCell.swift */; };
+		81B1BFEA28D6935300C3118A /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B1BFE928D6935300C3118A /* MovieDetailsViewController.swift */; };
 		81B8BB7328CC21540091F616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8BB7228CC21540091F616 /* AppDelegate.swift */; };
 		81B8BB7528CC21540091F616 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8BB7428CC21540091F616 /* SceneDelegate.swift */; };
 		81B8BB7728CC21540091F616 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B8BB7628CC21540091F616 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		65F80E9B684C0666C8354CA2 /* Pods-TipsterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TipsterTests.debug.xcconfig"; path = "Target Support Files/Pods-TipsterTests/Pods-TipsterTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A5F56FF0B076F99D911EFBA /* Pods-Tipster-TipsterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tipster-TipsterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tipster-TipsterUITests/Pods-Tipster-TipsterUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		817BCD1028CD560800D45D6C /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		81B1BFE928D6935300C3118A /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		81B8BB6F28CC21540091F616 /* Tipster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B8BB7228CC21540091F616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81B8BB7428CC21540091F616 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				65F80E9B684C0666C8354CA2 /* Pods-TipsterTests.debug.xcconfig */,
 				5190D35E3E0C72C9C7ACB7E9 /* Pods-TipsterTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +141,7 @@
 				81B8BB7D28CC21540091F616 /* LaunchScreen.storyboard */,
 				81B8BB8028CC21540091F616 /* Info.plist */,
 				817BCD1028CD560800D45D6C /* MovieCell.swift */,
+				81B1BFE928D6935300C3118A /* MovieDetailsViewController.swift */,
 			);
 			path = Tipster;
 			sourceTree = "<group>";
@@ -410,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B1BFEA28D6935300C3118A /* MovieDetailsViewController.swift in Sources */,
 				81B8BB7728CC21540091F616 /* ViewController.swift in Sources */,
 				81B8BB7328CC21540091F616 /* AppDelegate.swift in Sources */,
 				817BCD1128CD560800D45D6C /* MovieCell.swift in Sources */,
